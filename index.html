@@ -6,76 +6,231 @@
     <title>Nikhil</title>
     <style>
         *{
-            margin:0px;
+            margin : 0px;
         }
         .container{
-            background-color: rgb(255, 255, 255);
+            background-color: white;
             
         }
+
         .row{
-            background-color: rgb(255, 234, 0);
-            display : flex;
+            background-color: yellow;
+            color: grey;
+            display:flex;
             justify-content: space-between;
-            align-items: center;
             position: sticky;
+            
             top: 0px;
         }
         .row1{
             
-            display : flex;
+            display:flex;
             justify-content: space-around;
-            padding: 20px;
-            height: 600px;
+            padding:20px;
+            height:700px;
             align-items: center;
         }
         .row2{
             
+            display:flex;
+            background-color: silver;
+            justify-content: space-around;
+            padding:20px;
+            height:700px;
+            align-items: center;
+        }
+
+        .row3{
+
+            color:bisque;
+            background-color: lightseagreen;
+            padding: 10px;
+            height:600px;
+            align-items:center;
+
+        }
+        .tech{
             display : flex;
             justify-content: space-around;
-            padding: 20px;
-            height: 600px;
-            align-items: center;
-            background-color: silver;
+            padding : 20px;
         }
-        .box{
-            /* background-color: rgb(124, 124, 245); */
-            padding: 10px;
+
+        .row4{
             
+            display:flex;
+            background-color: lightgreen;
+            justify-content: space-around;
+            padding:20px;
+            height:700px;
+            align-items: center;
+        }
+        
+        .row5{
+            color: white;
+             background-color: black;
+            text-align:center;
+        }
+
+        .row6{
+            display: flex;
+            background-color:lightblue;
+            justify-content: space-around;
+            padding:20px;
+            height:700px;
+            align-items: center;
+        }
+        .footer{
+            color: azure;
+            background-color: black;
+            padding: 15px;
+            height: 10px;
+        }
+
+        .box{
+            background-color: rgb(231, 221, 78);
+            padding: 10px;
+        }
+
+        .box1{
+            background-color: white;
+            color:black;
+            padding : 20px;
+            margin:10px;
+            border-radius: 20px;
+        }
+
+        li{
+            display: inline;
+            padding: 5px;
+            font-size: larger;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+            font-size: larger;
+
+        }
+        .imgclass{
+            border-radius: 100px;
         }
     </style>
 </head>
 <body>
+    <!-- <h1>Nikhil</h1>
+    <hr>
+
+    <h3>I am a Web Developer</h3>
+    <hr>
+
+    <a href="#">About</a>
+    <a href="#">Projects</a>
+    <a href="#">Home</a>
+    <a href="#">Objectives</a>
+    <hr>
+    <img src = "https://picsum.photos/id/100/200/300"> 
+
+    <h4>@copyright 2024. All rights reserved.</h4> -->
+
     <div class = "container">
-        <div class = "row">
-            <div class = "box"> <h1>Nikhil</h1></div>
-                <div class = "box"><a href="#">Home</a> | <a href="#">About</a> | <a href="#">Services</a> | <a href="#">Project</a> | <a href="#">Contact</a></div>
+        <div class="row">
+            <div  class="box"><h1>Nikhil</h1></div>
+            <div class = "box"> 
+                <ul>
+                   <li><a href="#home">Home</a></li> 
+                   <li><a href="#About">About</a></li> 
+                   <li><a href="#projects">Projects</a></li> 
+                   <li><a href="#services">Services</a></li> 
+                   <li><a href="#contacts">Contact</a></li>
+                </ul>
         </div>
-
-        <div class = "row1" id = "Home">
-            <div><h1>Nikhil</h1><h3>Full Stack Developer</h3></div>
-            <div><img src="https://picsum.photos/id/1/400/300"/></div>
         </div>
-
-        <div class = "row2" id = "Project">
-            <div><h1>Projects</h1>
-            <ol>
-                <li>Project1</li>
-                <li>Project1</li>
-            </ol>
-            </div>
-            
-        </div>
+    
+    
+    <div class = "row1" id = "home">
+        <div><h1>Nikhil</h1>
+        <h3>Full Stack Developer</h3>
     </div>
-    <!-- <h1>Vismay</h1>
-    <hr>
-    <a href="http://about.html">about</a>
-    <a href="http://project.html">project</a>
-    <a href="http://contact.html">contact</a>
-    <h3>Hello my name is Vismay C V.</h3>
-    <img src="https://picsum.photos/id/1/400/200"/>
-    <br>
-    <a href="http://iamhim12345.github.io">Vam boy</a>
-    <hr>
-    <h4>@copyright 2024. All rights reserved under my name.</h4> -->
+        <div><img src = "https://picsum.photos/id/100/200/200"></div>
+    </div>
+
+    <div class = "row2" id = "projects">
+        <div><h1>Projects</h1>
+        <ol>
+            <li>Project 1</li>
+            <li>Project 2</li>
+        </ol>
+    </div>
+    </div>
+
+    <div class = "row3" id = "About">
+
+        <h3>Technologies and Tools</h3>
+    <div class = "tech">
+        <h4>Java</h4>
+        <h4>Python</h4>
+        <h4>JavaScript</h4>
+        <h4>SQL</h4>
+    </div>
+   
+
+
+        
+
+
+
+    </div>
+
+<div class = "row6" id = "services">
+
+ <h1>Services</h1> 
+<div class = "box1">
+    <h3>Web App Development</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut itaque veniam officiis vitae nulla 
+        fugit doloribus similique nisi, mollitia est dolor 
+        expedita illo et minima odit labore facilis ex animi?</p>
+
+</div>
+<div class="box1">
+    <h3>Mobile App Development</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut itaque veniam officiis vitae nulla 
+        fugit doloribus similique nisi, mollitia est dolor 
+        expedita illo et minima odit labore facilis ex animi?</p>
+    
+</div>
+<div class="box1">
+    <h3>Backend Development</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut itaque veniam officiis vitae nulla 
+        fugit doloribus similique nisi, mollitia est dolor 
+        expedita illo et minima odit labore facilis ex animi?</p>
+
+</div>
+    </div>
+    
+</div>
+</div>
+
+<div class = "row4" id = "contacts">
+    <div><h1>Contact Info</h1>
+    <ul>
+        <li>Phone No : 1234567890</li>
+        <li>Email : ABC@gmail.com</li>
+    </ul>
+</div>
+</div>
+
+    <div class="row5">
+        
+        <h4>Copyright 2024. All Rights Reserved.</h4>
+
+
+   
+   
+
+
+
+</div>
+</div>
 </body>
 </html>
